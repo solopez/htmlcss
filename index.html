@@ -8,18 +8,72 @@
   </head>
 
   <body>
+    <h1>Formación FullStack</h1>
 <!-- Ejercicios <3 -->
 
 <!-- 1) Agregar un heading nivel 2, y 2 parrafos. -->
+ <h2>Edición Mujeres</h2>
+ <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis reiciendis ad corporis soluta. Fugit dolore earum cupiditate iure, ab magnam vero aperiam voluptas cum, consectetur adipisci veniam. Placeat, sunt ratione.</p>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas excepturi veniam perferendis fuga odit minima, quo neque beatae praesentium quod sit est voluptatem magni alias et ab! Excepturi, sapiente aliquid.</p>
 <!-- 2) Crear una ordered list con 3 items. -->
+ <ol>
+  <li>Uno</li>
+  <li>Dos</li>
+  <li>Tres</li>
+ </ol>
 <!-- 3) Crear una unordered list con 3 items. -->
+<ul>
+  <li>Uno</li>
+  <li>Dos</li>
+  <li>Tres</li>
+ </ul>
 <!-- 4) Crear 2 <div>, dentro de cada div: agregar una imagen, un h2 para mostrar un titulo para esa imagen y un <p> con breve descripcion. -->
+  <div>¨
+    <h2>Gatito Cute</h2>
+    <img src="https://static.fundacion-affinity.org/cdn/farfuture/tWn1HJyAyt9QNwpTJGmPVAy0VwFWoON-uk6LSI9x8KU/mtime:1528830326/sites/default/files/lo-que-tienes-que-saber-si-te-decides-por-adoptar-un-gatito.jpg" alt="Gatito corriendo una Mariposa">
+    <p>Gatito disfrutando de la naturaleza</p>
+  </div>
+  <div>
+    <h2>Me dio hambre</h2>
+    <img src="https://www.semana.com/resizer/v2/D7UDC76J6RCZ3BXWYAAKSQSJOY.jpg?auth=e2982778c6ccd0718ddc3ed9363b351fe8cae0aa7dbf679dac2e24475685f849&smart=true&quality=75&width=1280&height=720" alt="hamburguesa con papas">
+    <p>Hamburguesa con papas para terminar la semana</p>
+  </div>
 <!-- 5) Crear 3 enlaces/links apuntando a sitios diferentes. -->
+ <a href="https://www.w3schools.com/html/default.asp">Machete HTML</a><br>
+ <a href="https://www.w3schools.com/css/default.asp">Machete css</a><br>
+ <a href="https://www.w3schools.com/js/default.asp">Machete JavaScript</a>
 <!-- 6) Crear menú de navegación <nav> usando una unordered list <ul> que contenga 3 items con links cada uno. -->
+  <nav>
+    <ul>
+      <li><a href="https://www.w3schools.com/html/html_exercises.asp">Ejercicios HTML</a></li>
+      <li><a href="https://www.w3schools.com/css/css_exercises.asp">Ejercicios css</a>
+        <ul>
+          <li>Ejercicio 1</li>
+          <li>Ejercicio 2</li>
+          <li>Ejercicio 3</li>
+        </ul>
+      </li>
+      <li><a href="https://www.w3schools.com/js/js_exercises.asp">Ejercicios JavaScript</a></li>
+    </ul>
+  </nav>
 <!-- 7) Crear un form con un input tipo texto, que tenga placeholder Buscar y un botón que diga Buscar.  -->
-<!-- 8) Agregar al form, un input tipo texto para Nombre. -->
-<!-- 9) Agregar al form, un textarea para Descripción. -->
+ <form>
+  <label for="buscar"></label>
+  <input type="text" id="buscar" placeholder="Buscar">
+  <button>Buscar</button><br>
+  <!-- 8) Agregar al form, un input tipo texto para Nombre. -->
+  <label for="nombre">Ingrese su nombre</label>
+  <input type="text" id="nombre"  placeholder="Nombre"><br>
+  <label for="apellido">Ingrese su apellido</label>
+  <input type="text" id="apellido" placeholder="Apellido"><br>
+  <label for="edad">EIngrese su edad</label>
+  <input type="number" id="edad" placeholder="Edad">
+  <!-- 9) Agregar al form, un textarea para Descripción. -->
+   <label for="desc">Descripción<label>
+   <textarea id="desc" placeholder="Descripción"></textarea>
+</form>
 <!-- 10) Crear footer que contenga el siguiente párrafo: &copy; 2024 Fullstack. -->
+ <footer> &copy; 2024 Fullstack.</footer>
 <!-- 11) Plus: agregar placeholders en los inputs y textarea -->
 <!-- 12) Plus: agregar labels y ids para input y textarea. -->
 <!-- 13) Plus: agregar 3 items más, dentro de un item de la <nav>, usando <ul> y <li> -->
@@ -34,6 +88,6 @@ Documentación:
 
 -->
 
-    <h1>Formación FullStack</h1>
+    
   </body>
 </html>
