@@ -12,21 +12,6 @@
 
 Ejercicios <3
 
-1) Agregar un heading nivel 2, y 2 parrafos.
-2) Crear una ordered list con 3 items.
-3) Crear una unordered list con 3 items.
-4) Crear 2 <div>, dentro de cada div: agregar una imagen, un h2 para mostrar un titulo para esa imagen y un <p> con breve descripcion.
-5) Crear 3 enlaces/links apuntando a sitios diferentes.
-6) Crear menú de navegación <nav> usando una unordered list <ul> que contenga 3 items con links cada uno.
-7) Crear un form con un input tipo texto, que tenga placeholder Buscar y un botón que diga Buscar. 
-8) Agregar al form, un input tipo texto para Nombre.
-9) Agregar al form, un textarea para Descripción.
-10) Crear footer que contenga el siguiente párrafo: &copy; 2024 Fullstack.
-11) Plus: agregar placeholders en los inputs y textarea
-12) Plus: agregar labels y ids para input y textarea.
-13) Plus: agregar 3 items más, dentro de un item de la <nav>, usando <ul> y <li>
-14) Plus: agregar 2 inputs más con labels y ids que elijan.
-
 Más práctica y ejercicios online en: https://www.w3schools.com/html/html_exercises.asp
     
 Documentación: 
@@ -36,5 +21,73 @@ Documentación:
 -->
 
     <h1>Formación FullStack</h1>
+
+    <!--1) Agregar un heading nivel 2, y 2 parrafos.-->
+    <h2>Esto es el header del primer ejercicio</h2>
+    <p>Y aquí va el primer párrafo.</p>
+    <p>Y aquí el segundo.</p>
+
+    <!-- 2) Crear una ordered list con 3 items. -->
+     <ol>
+      <li>Primer item list</li>
+      <li>Segundo item list</li>
+      <li>Tercer item list</li>
+     </ol>
+
+    <!-- 3) Crear una unordered list con 3 items. -->
+    <ul>
+      <li>Primer item list</li>
+      <li>Segundo item list</li>
+      <li>Tercer item list</li>
+    </ul>
+
+    <!-- 4) Crear 2 <div>, dentro de cada div: agregar una imagen, un h2 para mostrar un titulo para esa imagen y 
+    un <p> con breve descripcion. -->
+      <div>
+        <h2>HTML5</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" 
+        style="width: 300px; height: 200px;" alt="Imagen de prueba" />
+        <p>Es el logo de HTML5</p>
+      </div>
+      <div>
+        <h2>CSS3</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+        style="width: 300px; height: 200px;" alt="Imagen de prueba" />
+        <p>Es el logo de CSS</p>
+      </div>
+
+    <!-- 5) Crear 3 enlaces/links apuntando a sitios diferentes. -->
+    <a href="https://www.google.com">Google</a>
+    <br/>
+    <a href="https://www.youtube.com">Youtube</a>
+    <br/>
+    <a href="https://www.facebook.com">Facebook</a>
+
+    <!-- 6) Crear menú de navegación <nav> usando una unordered list <ul> que contenga 3 items con links cada uno. -->
+    <nav>
+      <ul>
+        <li><a href="https://www.netflix.com/">Netflix</a></li>
+        <li><a href="https://www.primevideo.com/">Amazon Prime Video</a></li>
+        <li><a href="https://www.disneyplus.com/">Disney+</a></li>
+      </ul>
+    </nav>
+
+    <!-- 7) Crear un form con un input tipo texto, que tenga placeholder Buscar y un botón que diga Buscar. -->
+    <!-- 8) Agregar al form, un input tipo texto para Nombre. -->
+    <!-- 9) Agregar al form, un textarea para Descripción. -->
+    <form>
+      <label for="name">Ingrese su nombre</label>
+      <input type="text" id="name" placeholder="Nombre" />
+      <label for="buscar">Ingrese lo que desea buscar</label>
+      <input type="text" id="search" placeholder="Buscar" />
+      <textarea placeholder="Descripción"></textarea>
+      <button>Buscar</button>
+    </form>
+
+    <!-- 10) Crear footer que contenga el siguiente párrafo: &copy; 2024 Fullstack. -->
+    <footer>
+      <p>&copy; 2024 Fullstack</p>
+    </footer>     
+    
   </body>
 </html>
