@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ejercicios de Flexbox y Media Queries</title>
     <style>
-      /* Estilos básicos */
+      /* Estilos */
       body {
         font-family: Arial, sans-serif;
         margin: 0;
@@ -26,10 +26,9 @@
         color: white;
         padding: 10px;
         text-align: center;
-        flex: 1;
       }
 
-      /* Media queries básicas */
+      /* Media queries */
       @media (min-width: 600px) {
         .container {
           background-color: lightblue;
@@ -44,9 +43,12 @@
     </style>
   </head>
   <body>
-    <h1>Soluciones de los ejercicios de Flexbox y Media Queries</h1>
-
-    <h2>Ejercicios de Flexbox</h2>
+    <h2>Ejercicios de Flexbox y Media queries</h2>
+    <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+      >Guía y documentación</a
+    >
+    <br />
+    <a href="https://flexboxfroggy.com/#es">FlexboxFroggy</a>
 
     <!-- Ejercicio 1: Filas por defecto -->
     <section>
@@ -146,10 +148,12 @@
       </div>
     </section>
 
-    <!-- Ejercicio 10: Flex-direction en pantallas pequeñas y grandes -->
+    <!-- Ejercicio 10: Flex en pantallas pequeñas y grandes -->
     <section>
       <h3>
-        Ejercicio 10: Flex-direction cambia en pantallas pequeñas y grandes
+        Ejercicio 10: Cambiar en pantallas pequeñas y grandes: flex-direction,
+        justify-content y align-items. Nota: se puede agregar height al
+        contenedor (ej: 400px) para notar los cambios.
       </h3>
       <style>
         @media (max-width: 400px) {
@@ -237,60 +241,46 @@
       </div>
     </section>
 
-    <!-- Ejercicio 16: Cambiar color de fondo y tamaño de fuente en un rango (min y width) que elijas -->
+    <!-- Ejercicio 16: Cambiar dirección de flex, color de fondo y tamaño de fuente en un rango (min y width) que elijas -->
     <section>
       <h3>
-        Ejercicio 16: Cambiar color de fondo y tamaño de fuente, en un rango (min
-        y max) que elijas
+        Ejercicio 16: Cambiar dirección de flex, color de fondo y tamaño de
+        fuente en un rango (min y width) que elijas
       </h3>
       <style></style>
-      <div class="container container-flex-md">
+      <div class="container container-flex-md-rules">
         <div class="item">Item 1</div>
         <div class="item">Item 2</div>
         <div class="item">Item 3</div>
       </div>
     </section>
 
-    <!-- Ejercicio 17: Establecer margin left y margin right 16px en mobile y 24px desktop -->
+    <!-- Ejercicio 17: Navegación -->
     <section>
       <h3>
-        Ejercicio 17: Establecer margin left y margin right 16px en mobile y
-        24px desktop
-      </h3>
-      <style></style>
-      <div class="container container-flex-md">
-        <div class="item">Item 1</div>
-        <div class="item">Item 2</div>
-        <div class="item">Item 3</div>
-      </div>
-    </section>
+        Ejercicio 17: Cambiar la navegación usando flexbox para que los links
+        (a) esten posisionados horizontalmente al final (end).
+        <br />Agregar un color de fondo a la navegación (contenedor navigation)
+        <br />
+        Quitar bullets y subrayado de links usando: <br />list-style: none;
+        text-decoration: none;
+        <br />
+        En mobile: <br />
+        posicionar verticalmente (column)
 
-    <!-- Ejercicio 18: Establecer padding left y padding right 16px en mobile y 24px desktop -->
-    <section>
-      <h3>
-        Ejercicio 18: Establecer padding left y padding right 16px en mobile y
-        24px desktop
+        <br />
+        Plus: Agregar una pseudo clase (hover) sobre los (a) para cambiar el color de
+        fondo al pasar el mouse por arriba. <a href="https://developer.mozilla.org/es/docs/Web/CSS/:hover">Ver: Hover</a>
       </h3>
       <style></style>
-      <div class="container container-flex-md">
-        <div class="item">Item 1</div>
-        <div class="item">Item 2</div>
-        <div class="item">Item 3</div>
-      </div>
-    </section>
-
-    <!-- Ejercicio 19: Establecer margin top y margin bottom 16px en mobile y 24px desktop -->
-    <section>
-      <h3>
-        Ejercicio 19: Establecer margin top y margin bottom 16px en mobile y
-        24px desktop
-      </h3>
-      <style></style>
-      <div class="container container-flex-md">
-        <div class="item">Item 1</div>
-        <div class="item">Item 2</div>
-        <div class="item">Item 3</div>
-      </div>
+      <nav>
+        <ul class="navigation">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
     </section>
   </body>
 </html>
