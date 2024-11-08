@@ -1,41 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fullstack 2024</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-  </head>
-
-  <body>
-<!--
-
-Ejercicios <3
-
-1) Agregar un heading nivel 2, y 2 parrafos.
-2) Crear una ordered list con 3 items.
-3) Crear una unordered list con 3 items.
-4) Crear 2 <div>, dentro de cada div: agregar una imagen, un h2 para mostrar un titulo para esa imagen y un <p> con breve descripcion.
-5) Crear 3 enlaces/links apuntando a sitios diferentes.
-6) Crear menú de navegación <nav> usando una unordered list <ul> que contenga 3 items con links cada uno.
-7) Crear un form con un input tipo texto, que tenga placeholder Buscar y un botón que diga Buscar. 
-8) Agregar al form, un input tipo texto para Nombre.
-9) Agregar al form, un textarea para Descripción.
-10) Crear footer que contenga el siguiente párrafo: &copy; 2024 Fullstack.
-11) Plus: agregar placeholders en los inputs y textarea
-12) Plus: agregar labels y ids para input y textarea.
-13) Plus: agregar 3 items más, dentro de un item de la <nav>, usando <ul> y <li>
-14) Plus: agregar 2 inputs más con labels y ids que elijan.
-
-Más práctica y ejercicios online en: https://www.w3schools.com/html/html_exercises.asp
-    
-Documentación: 
-  https://www.w3schools.com/html/html_intro.asp
-  https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML
-
-
-
+</head>
+<body>
+    <!--
 Ejercicios CSS <3
     
 Documentación CSS en: https://www.w3schools.com/css/default.asp
@@ -105,10 +78,163 @@ Ejemplos: @media screen and (min-width: 768px) {}
 @media screen and (min-width: 1280px) {}
 
 
-
-
 -->
-    <h1>Formación FullStack <3</h1>
-    <p>Hola!</p>
-  </body>
+<style>
+    body {
+        background-color: #f8f9fa;
+    }
+    h1 {
+        font-family: Arial;
+    }
+    p {
+        font-size: 18px;
+        border: 1px solid #ccc;
+        padding: 10px;
+    }
+    button {
+        background-color: #28a745;
+        color: white;
+        border-radius: 5px;
+        padding: 10px;
+        width: 100px;
+        margin: 10px 0;
+        border: none;
+    }
+    input, textarea {
+        padding: 5px;
+        margin: 5px 0;
+        border: none;
+    }
+    label {
+        font-family: 'Sofia';
+    }
+    textarea {
+        width: 300px;
+        height: 100px;
+    }
+    footer {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    header {
+        background-color: #333;
+        color: white;
+        padding: 50px;
+        text-align: center;
+    }
+    nav {
+        background-color: #333;
+        color: white;
+    }
+    nav ul {
+        list-style: none;
+    }
+    nav li {
+        padding: 10px;
+        display: inline-block;
+    }
+    nav ul ul {
+        display: none;
+    }
+    @media screen and (min-width: 768px) {
+        body {
+            background-color: #f6b7b7;
+        }
+    }
+    @media screen and (min-width: 1280px) {
+        body {
+            background-color: #add4fa;
+        }
+    }
+</style>
+<header>
+
+    <ol>
+        <li a href="#">Inicio</a></li>
+        <li a href="#">Contacto</a></li>
+        <li a href="#">Sobre Nosotras</a></li>
+    </ol>
+    <ul>
+        <li a href="#">Peugeot</a></li>
+        <li a href="#">Chevrolet</a></li>
+        <li a href="#">Ford</a></li>
+    </ul>
+</header>
+    <div>
+    <h1>Fullstack 2024</h1>
+    <h2>Subtitulo</h2>
+    <p>Pagina de ejercicios HTML</p>
+    <p>Autos de muestra para venta</p>
+        <h2>Peugeot</h2>
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEislFCDtJR8wDcMit1OkXcwiejYGtrspMiXiIYvP0lMG4cIOVPloH_0wrk42Ecfli0SoqFTC2BsAuM0qB5sxqzR6SsRVEzhGPFgkVk51WN2nmqz6XXXsZmZTFT8-r3z_41-mlqX2yAIwpvPFrw8ht3JRXmnGAVSLpcb2xM2WQ5DPQEPmaq_kljXs5HPtYU/s971/V3DImage.ashx-6.jpg" alt="peugeot 2008" />
+        
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore veniam ex expedita facere aperiam fugit commodi quo totam porro. Eum ipsa soluta itaque sed voluptas, voluptates voluptatibus quo corporis sit.
+        Totam corporis accusamus, soluta repellendus sint reprehenderit commodi qui nam animi temporibus facilis explicabo perferendis alias dolores magnam optio harum repudiandae eaque id neque hic enim magni? Ut, officia vero.
+        Iusto repellendus recusandae quae, ipsa velit, iure magnam nemo sint accusamus tempore dolorum aspernatur eveniet pariatur ullam, officia magni consequuntur alias illum numquam officiis culpa expedita veniam exercitationem facilis? Voluptatum?
+        </p>
+    </div>
+    <div>
+        <h2>Chevrolet</h2>
+        <img src="https://www.chevrolet.com.br/content/dam/chevrolet/south-america/brazil/portuguese/index/pickups-and-trucks/2024-montana/mov/03-images/montana-rs.png?imwidth=960" alt="Camioneta Chevrolet Montana" />
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium qui ab modi, itaque quaerat nobis nostrum sint dolorum sed, nam iure odio blanditiis quae obcaecati numquam sit reprehenderit perferendis dolore.
+        Veritatis iusto perspiciatis doloremque, obcaecati dolorum minima iure, vero dolorem delectus eaque est, impedit voluptatum sequi laudantium ducimus sit unde ex modi ut molestias sed rerum velit laboriosam dolor. Quia!
+        Sit fugit aut quod ex cumque culpa animi vel error id reiciendis ipsa repellat, ipsam sed consectetur distinctio eligendi dicta velit deleniti? Explicabo reiciendis culpa repellat aliquid nobis? Cumque, alias?</p>
+    </div>
+    <div>
+        <h2>Ford</h2>
+        <img src="https://acroadtrip.blob.core.windows.net/catalogo-imagenes/s/RT_V_9527866fefb84e3e840b1fd28e2a23c0.jpg" alt="Ford Mustang Mach 1" />
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium qui ab modi, itaque quaerat nobis nostrum sint dolorum sed, nam iure odio blanditiis quae obcaecati numquam sit reprehenderit perferendis dolore.
+        Veritatis iusto perspiciatis doloremque, obcaecati dolorum minima iure, vero dolorem delectus eaque est, impedit voluptatum sequi laudantium ducimus sit unde ex modi ut molestias sed rerum velit laboriosam dolor. Quia!
+        Sit fugit aut quod ex cumque culpa animi vel error id reiciendis ipsa repellat, ipsam sed consectetur distinctio eligendi dicta velit deleniti? Explicabo reiciendis culpa repellat aliquid nobis? Cumque, alias?</p>
+    <a href="https://www.google.com">Google</a>
+    <a href="https://www.facebook.com">Facebook</a>
+    <a href="https://www.twitter.com">Twitter</a>
+    <nav>
+        <ul>
+            <li><a href="https://www.google.com">Google</a></li>
+            <li><a href="https://www.facebook.com">Facebook</a></li>
+            <li><a href="https://www.twitter.com">Twitter</a></li>
+        </ul>
+    </nav>
+    <form>
+        <input type="text" placeholder="Buscar" id="buscar" />
+        <input type="text" placeholder="Nombre" id="nombre" />
+        <textarea placeholder="Descripción" id="descripcion"></textarea>
+        <input type="submit" value="Buscar" />
+    </form>
+
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre" placeholder="Nombre" />
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Email" />
+    <label for="password">Password</label>
+    <input type="password" id="password" placeholder="Password" />
+    <label for="telefono">Telefono</label>
+    <input type="tel" id="telefono" placeholder="Telefono" />
+    <label for="direccion">Direccion</label>
+    <input type="text" id="direccion" placeholder="Direccion" />
+    <label for="ciudad">Ciudad</label>
+    <input type="text" id="ciudad" placeholder="Ciudad" />
+    <label for="pais">Pais</label>
+    <input type="text" id="pais" placeholder="Pais" />
+    <label for="codigo">Codigo Postal</label>
+    <input type="text" id="codigo" placeholder="Codigo Postal" />
+    <label for="fecha">Fecha de Nacimiento</label>
+    <input type="date" id="fecha" placeholder="Fecha de Nacimiento" />
+    <label for="sexo">Sexo</label>
+    <input type="text" id="sexo" placeholder="Sexo" />
+
+    <footer>
+        <p>&copy; 2024 Fullstack</p>
+    </footer>
+
+
+
+
+
+</body>
 </html>
